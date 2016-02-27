@@ -1,1 +1,6 @@
+com/ntt/vn/domain/repository/UserRepository.class
 com/ntt/vn/app/welcome/HomeController.class
+com/ntt/vn/domain/service/BasicService.class
+com/ntt/vn/domain/model/Model.class
+com/ntt/vn/domain/service/UserService.class
+com/ntt/vn/domain/model/User.class
