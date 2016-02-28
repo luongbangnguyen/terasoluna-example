@@ -21,7 +21,10 @@ public class HomeController {
             .getLogger(HomeController.class);
 
     /**
-     * Simply selects the home view to render by returning its name.
+     *
+     * @param locale using for i18
+     * @param model using for model and view
+     * @return page home
      */
     @RequestMapping(value = "/", method = {RequestMethod.GET, RequestMethod.POST})
     public String home(Locale locale, Model model) {
